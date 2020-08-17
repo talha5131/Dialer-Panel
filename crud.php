@@ -34,4 +34,5 @@
 
     // echo $firstName;
     mysqli_query($conn, $insertQuery);
+    header("Location: http://localhost/Dialer-Panel/index.php");
 ?>
